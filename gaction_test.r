@@ -162,7 +162,6 @@ recent_data_h <- recent_data %>%
   ) %>%
   mutate(
     YMD = ymd_hms(YMD),
-    sensor = "quantaq"
   )
 
 
