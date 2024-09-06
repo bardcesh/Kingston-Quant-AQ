@@ -161,7 +161,7 @@ recent_data_h <- recent_data %>%
     PM10 = mean(PM10,na.rm = TRUE)
   ) %>%
   mutate(
-    YMD = ymd_hms(YMD),
+    YMD = ymd_hms(YMD)
   )
 
 
